@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: Sevesbrg;
+    src: url(SEVESBRG.TTF);
+}
+
+nav {
+	padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+	font-family: Sevesbrg;
+	text-align:center;
+	color:white;
+	font-size:18px;
+}
+
+a {
+	padding-top:20px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	color:white;
+	text-decoration:none;
+}
+
+/* Above: Header Outline | Below: Body Outline */
+
+#Body_Outline {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+img.topc {
+	margin: 0 auto;
+	display:block;
+}
+
+img.coverP {
+	margin: 0 auto;
+	display:block;
+	margin-bottom:15px;
+}
+
+iframe {
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 25px;
+	width: 90%;
+}
+
+/* Above: Body Outline */
+
+
+
